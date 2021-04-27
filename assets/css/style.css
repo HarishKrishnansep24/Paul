@@ -47,6 +47,12 @@ a:hover {
   color: #f5f5f5;
 }
 
+.img-fluid2
+{
+  margin-top: 20%;
+  max-width:100%;height:auto
+}
+
 .color-text-a {
   text-decoration: none;
   color: #4e4e4e;
@@ -222,6 +228,16 @@ a:hover {
 .socials .ico-circle {
   height: 40px;
   width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+.socials .ico-circle2 {
+  height: 30px;
+  width: 30px;
   font-size: 1.2rem;
   border-radius: 50%;
   line-height: 1.6;
@@ -895,7 +911,9 @@ a:hover {
   color: #fff;
   text-align: center;
 }
-
+.text-left{
+  text-align: left;
+}
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
@@ -1370,7 +1388,8 @@ a:hover {
 .lead2
 {
   font-size:1rem;
-  font-weight:300
+  font-weight:300;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .box-comments .list-comments span {
