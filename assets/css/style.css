@@ -287,6 +287,10 @@ a:hover {
   display: block;
 }
 
+.red_color
+{
+  color:red;
+}
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
   text-align: center;
